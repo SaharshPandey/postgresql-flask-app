@@ -6,6 +6,7 @@ from sqlalchemy.sql import func
 app =Flask(__name__)
 #app.config['SQLALCHEMY_DATABASE_URI']='postgresql://saharsh:saharsh@localhost/saharsh'
 app.config['postgres://ealjwezyboygbs:33a86d136be843dd9b44f3bab835ee293fe1cc570b4fdf1a8b4c5919d899160d@ec2-54-225-76-201.compute-1.amazonaws.com:5432/d6lq10srd6ftef?sslmode=require'
+
 db=SQLAlchemy(app)
 
 class Data(db.Model):
